@@ -21,6 +21,17 @@ phone numbers.
 Output should be in capital letters and digits separated with a single dash (-).
 The output should also display one possible word replacement per line.
 
+# Why I choose this challenge :
+
+This challenge  provides an opportunity to demonstrate proficiency in programming fundamentals, problem-solving skills, and the ability to design and implement a command-line application that interacts with files and STDIN.
+It challenges to generate possible word replacements for phone numbers while adhering to specific constraints, such as not allowing consecutive unchanged digits.I recently learnt alot about Trie datastructure and wanted to use it here.
+I believe it offers a valuable opportunity to showcase relevant skills and experience.
+
+# Design 
+I have used Trie data structure to solve this.
+Based on whether "numberfile" parameter is passed or not, executor decides to go with command line input or file input.
+Either with default dictionary file or "dictionary" set as part of paramater dictionary is traversed.
+Factory design pattern is used here.Recursion is used to decide the word.
 
 # Dependencies
 - Java OpenJDK 17
