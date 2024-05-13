@@ -61,8 +61,8 @@ b)By setting custom dictionary file
 $ java -jar  -Ddictionary="PATH TO CUSTOM DICTIONARY FILE" -Dnumberfile="PATH TO THE FILE WHICH CONTAINS NUMBERS" build/libs/PhonewordsChallenge.jar 
 
 
-dictionary - parameter helps to set the path of dictionary file
-numberfile - paramter helps to set input file which contain numbers.
+dictionary - parameter sets the path of dictionary file
+numberfile - paramter sets input file which contain numbers.
 
 Sample Input and output:
 
